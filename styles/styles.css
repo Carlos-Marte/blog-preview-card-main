@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Font */
+  --font-size: 16px;
+  --font-family: 'Figtree', sans-serif;
+
+  /* Colors */
+  --yellow: hsl(47, 88%, 63%); /*Primary*/
+  --white: hsl(0, 0%, 100%); /*Neutral*/
+  --grey: hsl(0, 0%, 50%); /*Neutral*/
+  --black: hsl(0, 0%, 7%); /*Neutral*/
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  background: var(--yellow);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
