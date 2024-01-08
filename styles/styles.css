@@ -34,6 +34,7 @@ body {
   margin: 0 1em;
   display: grid;
   place-content: center;
+  gap: 2.5em;
 }
 
 .newsArticle {
