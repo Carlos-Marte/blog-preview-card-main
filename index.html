@@ -10,18 +10,31 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
 
-  Learning
+  <article class="newsArticle">
+    <img src="./assets/images/illustration-article.svg" alt="Thumbnail from the article" class="newsArticle__thumbnail">
 
-  Published 21 Dec 2023
+    <main class="newsArticle__main">
+      <div class="newsArticle__categoryDate">
+        <span class="newsArticle__articleCategory">Learning</span>
+        <p class="newsArticle__articleDate">Published 21 Dec 2023</p>
+      </div>
 
-  HTML & CSS foundations
+      <h2 class="newsArticle__title">HTML & CSS foundations</h2>
+      <p class="newsArticle__description">
+        These languages are the backbone of every website, defining structure, content, and presentation.
+      </p>
+    <main/>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
+    <footer class="newsArticle__footer">
+      <img src="./assets/images/image-avatar.webp" alt="Photo of Greg Hooper" class="newsArticle__authorPhoto">
+      <strong class="newsArticle__authorName">Greg Hooper</strong>
+    </footer>
+  </article>
   
   <section class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
